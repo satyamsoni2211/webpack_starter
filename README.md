@@ -20,7 +20,7 @@
 ```
 the command will transpile the files and copy to lib and will also create
 minmized bundle for the same and also perform the hot compiling of the code
-__ will enable the file watcher __
+will enable the file watcher
 ```
 
 > npm run build
