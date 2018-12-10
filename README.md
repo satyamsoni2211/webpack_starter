@@ -6,6 +6,13 @@
 - Babel @ 7 for transpiling ES 2016 to es-15
 - Minimizing the final bundled file using Terser
 
+## To kick start perform the below steps
+
+- Clone the repo using git clone
+  > git clone https://github.com/satyamsoni2211/webpack_starter.git
+- install the required dependencies
+  > npm i
+
 ## To compile the bundle run the below command
 
 > npm run watch
