@@ -10,8 +10,8 @@
 
 > npm run build
 
-    **the command will transpile the files and copy to lib and will also create minmized bundle for the same**
+    - **the command will transpile the files and copy to lib and will also create minmized bundle for the same**
 
 > npm run comp
 
-    **the command will just transpile the code and copy to lib**
+    - **the command will just transpile the code and copy to lib**
