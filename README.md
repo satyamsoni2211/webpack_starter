@@ -37,3 +37,5 @@ the command will just transpile the code and copy to lib
 ```
 
 :+1: Easy Webpack guide for bundling! :shipit:
+
+This document was built with Reference from [Github Help](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
