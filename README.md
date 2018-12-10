@@ -1,4 +1,4 @@
-# webpack_starter
+# Webpack_starter
 
 ## Description
 
@@ -6,7 +6,7 @@
 - Babel @ 7 for transpiling ES 2016 to es-15
 - Minimizing the final bundled file using Terser
 
-## to compile the bundle run the below command
+## To compile the bundle run the below command
 
 > npm run build
 
