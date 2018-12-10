@@ -28,3 +28,5 @@ minmized bundle for the same
 ```
 the command will just transpile the code and copy to lib
 ```
+
+:+1: Easy Webpack guide for bundling! :shipit:
