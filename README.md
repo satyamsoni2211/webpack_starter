@@ -5,6 +5,9 @@
 - Webpack Tutorial for React 16
 - Babel @ 7 for transpiling ES 2016 to es-15
 - Minimizing the final bundled file using Terser
+- Extracting Css files out of the main JS bundle using extract-web-transform-plugin
+- Headless test case execution using Mocha and Chai
+- Coverage reports for the tested code using Istanbull
 
 ## To kick start perform the below steps :two_women_holding_hands:
 
