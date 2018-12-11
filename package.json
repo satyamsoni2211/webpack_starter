@@ -6,7 +6,9 @@
   "scripts": {
     "comp": "babel src --out-dir lib --copy-files",
     "build": "npm run comp && webpack --mode=production",
-    "watch": "npm run comp && webpack --mode=production --watch"
+    "watch": "npm run comp && webpack --mode=production --watch",
+    "test": "mocha --compilers js:@babel/register test/specs/*.js",
+    "coverage": "istanbul cover _mocha test/specs/*.js -- --require @babel/register && open coverage/lcov-report/index.html"
   },
   "keywords": [],
   "author": "",
@@ -17,10 +19,12 @@
     "@babel/plugin-transform-arrow-functions": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
     "babel-loader": "^8.0.4",
     "babel-minify-webpack-plugin": "^0.3.1",
     "css-loader": "^2.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "istanbul": "^0.4.5",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -31,6 +35,8 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0"
+    "@babel/polyfill": "^7.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }
