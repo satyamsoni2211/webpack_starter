@@ -36,6 +36,18 @@ minmized bundle for the same
 the command will just transpile the code and copy to lib
 ```
 
+> npm run test
+
+```
+for testing the component run the script test
+```
+
+> npm run coverage
+
+```
+Above script would give you coverage insights of the testcases that ran
+```
+
 :+1: Easy Webpack guide for bundling! :shipit:
 
 This document was built with Reference from [Github Help](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
